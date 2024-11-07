@@ -38,8 +38,13 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-block: 50px;
+}
 
-
+@media (max-width: 1200px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 img {
